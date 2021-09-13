@@ -1,0 +1,90 @@
+header { background-color: #000330;
+	background-image: url(sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+body { background-color: #00569f;
+	background-image: url(ptrbackground.jpg);
+	color:#000330;
+}
+
+#wrapper { margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 600px;
+	background-color:#3399CC;
+}
+
+span {
+	font-weight: bold;
+	color: #00569f;
+}
+
+nav{
+	font-weight: bold;
+	float: left;
+	width: 150px;
+	padding: 20px 5px 5px 20px;
+}
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+nav a{
+	text-decoration: none;
+}
+nav a:link{
+	color:#000330;
+}
+nav a:visited {
+	color:#000330;
+}
+nav a:hover {
+	color: white;
+}
+
+#content {
+	background-color: white;
+	margin-left: 200px;
+	padding: 1px 20px 20px 30px;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#content ul {
+	list-style-image: url(marker.gif);
+	list-style-position: inside;
+}
+
+#content img {
+	float: left;
+	padding-right: 20px;
+}
+
+#contact {
+	font-size: 90%;
+}
+dt {
+	color: #000330;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 70%;
+	background-color: white;
+	padding: 20px;
+	margin-left: 200px;
+}
+
